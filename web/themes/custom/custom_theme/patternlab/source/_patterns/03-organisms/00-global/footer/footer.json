@@ -1,0 +1,51 @@
+{
+  "container": "container",
+  "footer": {
+    "include()": {
+      "pattern": "molecules-menu.html",
+      "with": {
+        "items": [
+          {
+            "title": "Facebook",
+            "url": {
+              "Url()": {
+                "url": "#",
+                "options": {
+                  "attributes": {
+                    "class": "fa fa-facebook"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "title": "Instagram",
+            "url": {
+              "Url()": {
+                "url": "#",
+                "options": {
+                  "attributes": {
+                    "class": "fa fa-instagram"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "title": "Twitter",
+            "url": {
+              "Url()": {
+                "url": "#",
+                "options": {
+                  "attributes": {
+                    "class": "fa fa-twitter"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "329361c39508ab274cc2934986773d2f",
-    "content-hash": "d93e87330dace6f2695c6a94b167d195",
+    "hash": "22f1cffd9ae889cd47699dcc016f8e44",
+    "content-hash": "73fdb49430e66d253c8976864ec34e51",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1392,6 +1392,49 @@
             "time": "2016-12-06 10:55:31"
         },
         {
+            "name": "drupal/components",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/components",
+                "reference": "8.x-1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/components-8.x-1.0.zip",
+                "reference": null,
+                "shasum": "adb1872a655466d575c2d3396f7ca2daba0a2918"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0",
+                    "datestamp": "1461060840"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "JohnAlbin",
+                    "homepage": "https://www.drupal.org/user/32095"
+                }
+            ],
+            "description": "Registers “component libraries” defined in modules and themes with the Twig system",
+            "homepage": "https://www.drupal.org/project/components",
+            "support": {
+                "source": "http://cgit.drupalcode.org/components"
+            }
+        },
+        {
             "name": "drupal/config_installer",
             "version": "1.3.0",
             "source": {
@@ -2590,17 +2633,17 @@
         },
         {
             "name": "drupal/link_attributes",
-            "version": "1.0.0-alpha3",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/link_attributes",
-                "reference": "8.x-1.0-alpha3"
+                "reference": "8.x-1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/link_attributes-8.x-1.0-alpha3.zip",
+                "url": "https://ftp.drupal.org/files/projects/link_attributes-8.x-1.0.zip",
                 "reference": null,
-                "shasum": "a43682e3a317054f9a6311a05b34f32f0e154049"
+                "shasum": "8a5851467f17c01b4dcb6e446f00cd7abe116475"
             },
             "require": {
                 "drupal/core": "*"
@@ -2611,8 +2654,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-alpha3",
-                    "datestamp": "1479245341"
+                    "version": "8.x-1.0",
+                    "datestamp": "1481849583"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -3023,20 +3066,20 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/paragraphs",
-                "reference": "cef22f6dde1d7e130db046648d4bc080fd926d81"
+                "reference": "acb90ae7ad5f35f380e0256d611e17833c8c86d7"
             },
             "require": {
                 "drupal/core": "~8.0",
                 "drupal/entity_reference_revisions": "*"
             },
-            "suggest": {
-                "drupal/core": "Required by drupal/paragraphs_demo",
-                "drupal/diff": "Required by drupal/paragraphs",
-                "drupal/field_group": "Required by drupal/paragraphs",
-                "drupal/inline_entity_form": "Required by drupal/paragraphs",
-                "drupal/replicate": "Required by drupal/paragraphs",
-                "drupal/search_api": "Required by drupal/paragraphs_demo",
-                "drupal/search_api_db": "Required by drupal/paragraphs_demo"
+            "require-dev": {
+                "drupal/core": "*",
+                "drupal/diff": "*",
+                "drupal/field_group": "*",
+                "drupal/inline_entity_form": "*",
+                "drupal/replicate": "*",
+                "drupal/search_api": "*",
+                "drupal/search_api_db": "*"
             },
             "type": "drupal-module",
             "extra": {
@@ -3044,8 +3087,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0+35-dev",
-                    "datestamp": "1481651884"
+                    "version": "8.x-1.0+42-dev",
+                    "datestamp": "1482285486"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -3075,7 +3118,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/paragraphs"
             },
-            "time": "2016-12-13 17:56:25"
+            "time": "2016-12-21 01:56:14"
         },
         {
             "name": "drupal/pathauto",
@@ -3136,21 +3179,23 @@
         },
         {
             "name": "drupal/redirect",
-            "version": "1.0.0-alpha1",
+            "version": "1.0.0-alpha2",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/redirect",
-                "reference": "8.x-1.0-alpha1"
+                "reference": "8.x-1.0-alpha2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/redirect-8.x-1.0-alpha1.zip",
+                "url": "https://ftp.drupal.org/files/projects/redirect-8.x-1.0-alpha2.zip",
                 "reference": null,
-                "shasum": "cdc683b607027d26cbb2360acc7448fc51f84ad8"
+                "shasum": "c70fc2bcf87b9bb66d72d256ac6665c9a0c9ddf7"
             },
             "require": {
-                "drupal/core": "*",
-                "drupal/link-link": "*"
+                "drupal/core": "~8"
+            },
+            "require-dev": {
+                "drupal/core": "*"
             },
             "type": "drupal-module",
             "extra": {
@@ -3158,8 +3203,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-alpha1",
-                    "datestamp": "1460041522"
+                    "version": "8.x-1.0-alpha2",
+                    "datestamp": "1481901483"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -3167,6 +3212,10 @@
                 "GPL-2.0+"
             ],
             "authors": [
+                {
+                    "name": "Berdir",
+                    "homepage": "https://www.drupal.org/user/214652"
+                },
                 {
                     "name": "Dave Reid",
                     "homepage": "https://www.drupal.org/user/53892"
@@ -3767,12 +3816,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/geerlingguy/drupal-vm.git",
-                "reference": "c626a3e5cb0800f2ba163bec9d580597d98fa210"
+                "reference": "da04a1bfa9178cfdfcfa1216a989259c9028f500"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/geerlingguy/drupal-vm/zipball/c626a3e5cb0800f2ba163bec9d580597d98fa210",
-                "reference": "c626a3e5cb0800f2ba163bec9d580597d98fa210",
+                "url": "https://api.github.com/repos/geerlingguy/drupal-vm/zipball/da04a1bfa9178cfdfcfa1216a989259c9028f500",
+                "reference": "da04a1bfa9178cfdfcfa1216a989259c9028f500",
                 "shasum": ""
             },
             "type": "vm",
@@ -3798,7 +3847,7 @@
                 "virtual machine",
                 "vm"
             ],
-            "time": "2016-12-10 19:19:48"
+            "time": "2016-12-20 23:21:59"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -3864,28 +3913,28 @@
         },
         {
             "name": "guzzlehttp/promises",
-            "version": "1.3.0",
+            "version": "v1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/promises.git",
-                "reference": "2693c101803ca78b27972d84081d027fca790a1e"
+                "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/2693c101803ca78b27972d84081d027fca790a1e",
-                "reference": "2693c101803ca78b27972d84081d027fca790a1e",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/a59da6cf61d80060647ff4d3eb2c03a2bc694646",
+                "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.5.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.0"
+                "phpunit/phpunit": "^4.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "1.4-dev"
                 }
             },
             "autoload": {
@@ -3911,7 +3960,7 @@
             "keywords": [
                 "promise"
             ],
-            "time": "2016-11-18 17:47:58"
+            "time": "2016-12-20 10:07:11"
         },
         {
             "name": "guzzlehttp/psr7",
